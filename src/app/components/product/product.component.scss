@@ -1,0 +1,16 @@
+@import 'variables';
+
+:host {
+  display: block;
+
+  .cart {
+    display: flex;
+
+    &_image {
+      height: 70px;
+      width: 70px;
+      background: $pink;
+      margin: 0 20px 0 0;
+    }
+  }
+}
